@@ -1,7 +1,7 @@
 import random
 answer = random.randint(1, 100)
 checkcorrect=0
-print(answer)
+
 while checkcorrect==0 :
     guess = int(input('guess='))
     print('Your guess is', guess)
